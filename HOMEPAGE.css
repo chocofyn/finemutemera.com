@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  background-image: url('FB_IMG_16987404737026169.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  
+  padding: 20px ;
+  margin: 2 ;
+  max-width: 900px ;
+  
+}
+
+/* Header and Navigation */
+header {
+  background-color: #333
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+p2 {
+  text-align: left;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+  text-decoration-color:#f2f2f2 ;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-block-end-color: #ffffff ;
+}
+
+th, td {
+  padding: 30px;
+  background-color: #ffffff ;
+  text-align: left;
+  text-decoration-color: #ffffff;
+  border-bottom: 4px solid #18F9F8;
+}
+
+th {
+  background-color: #18F9F8;
+}
+
+button {
+  text-emphasis-color: #121317 ;
+  background-color: #121317 ;
+  font-size : 20px; 
+  position : absoute ;
+}
+
+/* Nested Lists */
+ul {
+  list-style-type: none;
+  padding: 2;
+}
+
+ul ul {
+  margin-left: 10px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}

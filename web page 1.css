@@ -1,0 +1,29 @@
+body {
+  background-image: url('FB_IMG_16987404737026169.jpg');/*was overriden by below code*/
+  background-image: linear-gradient(to bottom right, #ff0000, #0000ff);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #f2f2f2; /* Fallback color */
+
+}
+
+
+/* Header and Navigation */
+header {
+  background-color: #333
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
